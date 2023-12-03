@@ -1,0 +1,171 @@
+html,
+body {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    padding: 10px;
+}
+
+.bk {
+    background: url(https://sv1.picz.in.th/images/2023/12/03/d0xqeEn.jpeg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+}
+
+.top-header {
+    background-color: #282828;
+}
+
+.menu-item {
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.brand {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-content {
+    max-width: 430px;
+    margin: auto;
+}
+
+.main-content-inline {
+    display: inline-block;
+}
+
+.box {
+    background-color: #fff;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.logo-item {
+    width: 80px;
+    padding: 10px;
+    border-radius: 100%;
+    display: block;
+}
+
+.image {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: #00b900;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.button-footer {
+    background-color: #282828;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
+
+.main-content h3 {
+    margin: -13px 0px;
+}
+
+.box-bk {
+    background: url(img/M38OuR.webp);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.button-2 {
+    animation: wiggle 2s linear infinite;
+    color: rgb(255, 255, 255);
+    background-color: #1ba0bd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+
+    0%,
+    7% {
+        transform: rotateZ(0);
+    }
+
+    15% {
+        transform: rotateZ(-15deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+    }
+
+    25% {
+        transform: rotateZ(-10deg);
+    }
+
+    30% {
+        transform: rotateZ(6deg);
+    }
+
+    35% {
+        transform: rotateZ(-4deg);
+    }
+
+    40%,
+    100% {
+        transform: rotateZ(0);
+    }
+}
+
+.pop {
+    webkit-animation: pop 2s infinite;
+    animation: pop 1.5s infinite;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    background-color: #0cb8df;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+@keyframes pop {
+    40%  {transform: scale(1.1);}
+  }
+
+.t-pop {
+    webkit-animation: pop 2s infinite;
+    animation: pop 1.5s infinite;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+}
+
+@keyframes t-pop {
+    40%  {transform: scale(1.1);}
+  }
